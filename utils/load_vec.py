@@ -7,9 +7,8 @@ import pickle
 import random
 import scipy.ndimage
 from PIL import Image
-import torchvision.transforms.functional as F
 import torch
-import os
+
 
 def to_Five_Point(sketch_points, max_seq_length):
     len_seq = len(sketch_points[:, 0])

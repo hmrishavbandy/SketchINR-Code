@@ -6,7 +6,6 @@ from xml.dom import minidom
 import numpy as np
 import scipy.ndimage
 from bresenham import bresenham
-from PIL import Image
 from rdp import rdp
 
 

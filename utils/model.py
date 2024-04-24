@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-import math
+
 import torch.nn.functional as F
 
 class DeepSDF(nn.Module):
@@ -23,8 +23,7 @@ class DeepSDF(nn.Module):
     ):
         super(DeepSDF, self).__init__()
 
-        def make_sequence():
-            return []
+        
         if positional_encoding is True:
             dims = [latent_size + 2*fourier_degree*3] + dims + [1]
         else:

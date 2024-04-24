@@ -4,21 +4,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import pickle
-import requests
 from bresenham import bresenham
-from io import BytesIO
-from PIL import Image
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-import torchvision
-import torchvision.transforms as transforms
-from torch.utils.data import DataLoader
-import wandb
+
 
 from utils.convert_utils import to_stroke3
-from utils.load_vec import Dataset_Quickdraw, mydrawPNG_from_list
+from utils.load_vec import Dataset_Quickdraw
 from utils.loss import Dist_wrapper
 from utils.model import DeepSDF
 
