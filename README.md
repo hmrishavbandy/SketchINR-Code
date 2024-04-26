@@ -11,8 +11,6 @@ A First Look into Sketches as Implicit Neural Representations
            ├── QuickDraw_TrainData/
            └── QuickDraw_ValidData/
   ```
+  Download dataset from https://huggingface.co/datasets/Hmrishav/QuickDraw
 - Create conda environment: `conda env create --name sketchinr --file=environments.yml`
 - Training: `python3 single_fit.py`
-
-### ToDo: 
-- Share QuickDraw Dataset
