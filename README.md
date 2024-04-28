@@ -1,4 +1,4 @@
-# SketchINR
+# SketchINR (CVPR 2024)
 A First Look into Sketches as Implicit Neural Representations
 - Before training, change the root directory here https://github.com/hmrishavbandy/SketchINR-Code/blob/707bf1f0be69b70b097075c2bf7f9bd456c59913/single_fit.py#L248
   to your dataset folder. The folder (for QuickDraw) should look like
